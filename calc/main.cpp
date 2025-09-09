@@ -27,7 +27,8 @@ cout << "Subtracted: " << num1 - num2 << endl;
 cout << "Multiplied: " << num1 * num2 << endl;
 cout << "Divided: " << num1 / num2 << endl;
 cout << "Modulo: " << num1 % num2 << endl;
-std::this_thread::sleep_for(std::chrono::milliseconds(1));
+std::this_thread::sleep_for(std::chrono::milliseconds(200));
 }
 
 }
+
